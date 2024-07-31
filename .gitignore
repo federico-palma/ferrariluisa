@@ -1,0 +1,51 @@
+*.py[cod]
+*.swp
+
+# spooler
+spooler/uwsgi*
+
+# file uploadati, collectstatic
+project/static/static/cache
+project/static/static/up
+project/static/static/wf
+project/static/static/robots.txt
+project/static/static/banner
+project/static/static/uploads
+project/static/static/product
+project/static/static/sitemap.xml
+project/static/treebeard
+project/static/modeltranslation
+project/static/django_tables2
+project/static/oscar
+project/static/admin
+project/static/oscar_wagtail
+
+# media files
+project/static/static/media/
+project/media
+
+# venv
+venv
+env
+
+# log, pid, file configurazione uwsgi
+uwsgi.*
+*.pid
+*.log
+*.log.save
+
+bin/manage
+
+sftp-config.json
+.htpasswd
+.htaccess
+
+# varie OS X
+.DS_Store
+__MACOSX
+
+# wsgi file
+project/project/wsgi.py
+.vscode
+access.log
+error.log
